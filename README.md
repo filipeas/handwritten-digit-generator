@@ -22,18 +22,20 @@ import keras
 keras.__version__
 ```
 - then change keras version to 2.1.2:
-``` pip uninstal keras ```
-``` pip instal keras==2.1.2 ```
+``` 
+pip uninstal keras
+pip instal keras==2.1.2 
+```
 - Finally, install Keras Adversarial:
-	 -```
-	 git clone https://github.com/bstriner/keras_adversarial.git
-	cd keras_adversarial
-	python setup.py install
-	 ```
+```
+git clone https://github.com/bstriner/keras_adversarial.git
+cd keras_adversarial
+python setup.py install
+```
 - and matplotlib:
-	- ```
-	pip install matplotlib
-	```
+```
+pip install matplotlib
+```
 
 * ps: Remembering that as a new virtual environment was created, you will have to install Spyder again.
 
